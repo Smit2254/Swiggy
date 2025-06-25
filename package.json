@@ -1,0 +1,30 @@
+{
+  "name": "swiggy_clone",
+  "version": "1.0.0",
+  "description": "Swiggy Clone Using ReactJs",
+  "scripts": {
+    "start": "parcel index.html --port 3000",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smit2254/Swiggy.git"
+  },
+  "keywords": [
+    "swiggy",
+    "React"
+  ],
+  "author": "Smit Bhavsar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smit2254/Swiggy/issues"
+  },
+  "homepage": "https://github.com/Smit2254/Swiggy#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
