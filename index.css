@@ -105,3 +105,20 @@
   padding: 0 20px;
   cursor: pointer;
 }
+
+.user-card {
+  width: 250px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  padding: 16px;
+  background-color: #fff;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  transform: translateY(-4px);
+}
