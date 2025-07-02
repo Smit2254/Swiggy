@@ -1,4 +1,5 @@
 import useRestaurantMenu from '../utils/useRestaurantMenu';
+import RestaurantCategory from './RestaurantCategory';
 import Shimmer from './Shimmer';
 import { useParams } from 'react-router';
 
@@ -9,8 +10,12 @@ const RestaurantMenu = () => {
   if (resInfo === null) return <Shimmer />;
 
   const { name, cuisines, costForTwoMessage } = resInfo?.cards[2]?.card?.card?.info;
-  const { itemCards } = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
-  console.log(itemCards);
+  const { itemCards } = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
+  console.log(resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
+
+  const catagories = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
+    (c) => c.card?.card?.['@type'] === 'type.googleapis.com/swiggy.presentation.food.v2.ItemCategory'
+  );
 
   return (
     <div className='max-w-3xl mx-auto p-6'>
@@ -18,15 +23,10 @@ const RestaurantMenu = () => {
       <p className='text-gray-600 mb-6'>
         {cuisines.join(', ')} - {costForTwoMessage}
       </p>
-      <h2 className='text-2xl font-semibold mb-4'>Menu</h2>
-      <ul className='space-y-4'>
-        {itemCards.map((item) => (
-          <li key={item.card.info.id} className='flex justify-between items-center border-b pb-2'>
-            <span>{item.card.info.name}</span>
-            <span>₹ {item.card.info.price / 100}</span>
-          </li>
-        ))}
-      </ul>
+      {/*categories*/}
+      {catagories.map((catagory) => (
+        <RestaurantCategory key={catagory?.card?.card?.title} data={catagory?.card?.card} />
+      ))}
     </div>
   );
 };

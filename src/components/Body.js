@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import RestaurantCard from './RestaurantCard';
+import RestaurantCard, { withVegLabel } from './RestaurantCard';
 import Shimmer from './Shimmer';
 import { Link } from 'react-router-dom';
 import useOnlineStatus from '../utils/useOnlineStatus';
@@ -8,6 +8,8 @@ const Body = () => {
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [searchText, setSearchText] = useState('');
+
+  const RestaurantCardVeg = withVegLabel(RestaurantCard);
 
   useEffect(() => {
     fetchData();
@@ -66,7 +68,7 @@ const Body = () => {
       <div className='flex flex-wrap gap-10 mb-10 justify-center'>
         {filteredRestaurant.map((restaurant) => (
           <Link key={restaurant.info.id} to={'/restaurants/' + restaurant.info.id} style={{ textDecoration: 'None' }}>
-            <RestaurantCard resData={restaurant} />
+            {restaurant.info.veg ? <RestaurantCardVeg resData={restaurant} /> : <RestaurantCard resData={restaurant} />}
           </Link>
         ))}
       </div>
