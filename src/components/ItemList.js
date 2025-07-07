@@ -13,7 +13,11 @@ const ItemList = ({ items }) => {
     <div>
       <ul>
         {items.map((item) => (
-          <div key={item.card.info.id} className='p-2 m-2 flex justify-between items-start border-b-2 border-gray-200'>
+          <div
+            data-testid='foodItems'
+            key={item.card.info.id}
+            className='p-2 m-2 flex justify-between items-start border-b-2 border-gray-200'
+          >
             <div className='py-2 w-9/12'>
               <p className='font-bold'>{item.card.info.name}</p>
               <p className='font-medium'>₹{item.card.info.price / 100}</p>
@@ -21,7 +25,10 @@ const ItemList = ({ items }) => {
             </div>
             <div className='w-3/12'>
               <div className='absolute'>
-                <button className='p-2 my-21 bg-black text-white shadow-lg rounded' onClick={() => handleAddItem(item)}>
+                <button
+                  className='p-2 my-21 bg-black text-white shadow-lg rounded cursor-pointer'
+                  onClick={() => handleAddItem(item)}
+                >
                   Add +
                 </button>
               </div>

@@ -15,7 +15,7 @@ const Header = () => {
   const cartItems = useSelector((store) => store.cart.items);
 
   return (
-    <div className='flex justify-between bg-pink-100 shadow-lg'>
+    <div className='flex justify-between bg-blue-100 shadow-lg'>
       <div className='logo-container'>
         <img className='w-56' src={LOGO_URL} alt='company logo' />
       </div>
@@ -38,9 +38,9 @@ const Header = () => {
             <li className='px-4 font-bold text-xl'>Cart ({cartItems.length})</li>
           </Link>
           <button
-            className='login-btn'
+            className='login-btn cursor-pointer'
             onClick={() => {
-              button === 'login' ? setButton('Logout') : setButton('login');
+              button === 'Login' ? setButton('Logout') : setButton('Login');
             }}
           >
             {button}

@@ -1,0 +1,2260 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Champaran  Handi Restaurant",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "630193",
+              "name": "Champaran  Handi Restaurant",
+              "city": "Chhindwara",
+              "slugs": {
+                "restaurant": "champaran-handi-restaurant-chhindwara-city-chhindwara-city",
+                "city": "chhindwara"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "xph0vf5pvbxjf8xchwjk",
+              "locality": "Sinchai Colony",
+              "areaName": "Nagpur road",
+              "costForTwo": "20000",
+              "costForTwoMessage": "₹200 for two",
+              "cuisines": ["North Indian"],
+              "avgRating": 4.3,
+              "feeDetails": {
+                "restaurantId": "630193",
+                "fees": [{}]
+              },
+              "parentId": "376324",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "420 ratings",
+              "sla": {
+                "restaurantId": "630193",
+                "deliveryTime": 714,
+                "minDeliveryTime": 714,
+                "maxDeliveryTime": 714,
+                "lastMileTravel": 1019.6,
+                "serviceability": "NON_SERVICEABLE",
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "slaString": "714 MINS",
+                "lastMileTravelString": "1019.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "visibility": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "champaran-handi-restaurant-chhindwara-city-chhindwara-city",
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "Near Kamthi, Moters, Nagpur Rd, Chhindwara, Madhya Pradesh 480001"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "North Indian"
+                }
+              ],
+              "totalRatings": 420,
+              "aggregatedDiscountInfoV2": {},
+              "type": "F",
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/630193"
+              },
+              "ratingSlab": "RATING_SLAB_5",
+              "availabilityServiceabilityMessage": "Does not deliver to your location",
+              "orderabilityCommunication": {
+                "title": {
+                  "text": "Wish you were"
+                },
+                "subTitle": {
+                  "text": "CLOSER!"
+                },
+                "message": {
+                  "text": "This location is outside the outlet's delivery area",
+                  "textColour": "negative"
+                },
+                "customIcon": {
+                  "bgGradientColorStart": "#F64C41",
+                  "bgGradientColorEnd": "#E53554"
+                },
+                "commsStyling": {}
+              },
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "22.0170738,78.93047525",
+              "backgroundImageOverlayInfo": {},
+              "featuredSectionInfo": {}
+            },
+            "analytics": {}
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuTab",
+            "tabs": [
+              {
+                "id": "REGULAR",
+                "title": "Full Menu",
+                "selected": true,
+                "analytics": {},
+                "selectedImage": "v1594205104/fullMenuActive_qcsdzt.png",
+                "unselectedImage": "v1594205107/fullMenuInactive_fbdtp2.png"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Main Course",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636632",
+                              "name": "Aloo Jeera  ",
+                              "category": "Main Course",
+                              "description": "A flavorful and aromatic main course featuring earthy potatoes sauteed with jeera (cumin) to create a delightful vegetarian dish.",
+                              "imageId": "f524634f6fc27b04308b190e531acd00",
+                              "isVeg": 1,
+                              "price": 15500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636641",
+                              "name": "Aloo Gobi",
+                              "category": "Main Course",
+                              "description": "A flavorful and comforting vegetarian delight, perfect for a satisfying main course.",
+                              "imageId": "537638f5ec395cac1469c265ded42c1b",
+                              "isVeg": 1,
+                              "price": 15000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27309877",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "86641878",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 5400,
+                                        "id": "86641879",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115074080",
+                              "name": "Mix Veg",
+                              "category": "Main Course",
+                              "description": "A delectable medley of fresh vegetables, bursting with flavors and textures, perfect for a satisfying main course.",
+                              "isVeg": 1,
+                              "price": 15000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "29886201",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Full",
+                                        "price": 6700,
+                                        "default": 1,
+                                        "id": "93363678",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Half",
+                                        "id": "93363677",
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636635",
+                              "name": "Chana Masala",
+                              "category": "Main Course",
+                              "description": "A delectable vegetarian main course that promises an explosion of flavors and aromatic spices.",
+                              "isVeg": 1,
+                              "price": 11500,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27309875",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "86641870",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 6500,
+                                        "id": "86641871",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636637",
+                              "name": "Sev Tomato",
+                              "category": "Main Course",
+                              "description": "A delightful and flavorful vegetarian main course bursting with tangy tomatoes and crispy sev.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/2/fcc906fe-c406-4ed4-b556-35e4ef166677_10c99ba0-7cbf-4990-951d-26eabf0bfc6d.JPG",
+                              "isVeg": 1,
+                              "price": 11500,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27309876",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "86641872",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 8000,
+                                        "id": "86641873",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115074081",
+                              "name": "Paneer Bhurji Dry",
+                              "category": "Main Course",
+                              "description": "A delightful and flavorful vegetarian main course that will tantalize your taste buds with its aromatic spices and delectable texture.",
+                              "imageId": "a90ee2c9771914d36cf249992e17f6e9",
+                              "isVeg": 1,
+                              "price": 32000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636634",
+                              "name": "Paneer Butter Masala",
+                              "category": "Main Course",
+                              "description": "A creamy and flavorful Indian delicacy that will melt in your mouth.",
+                              "imageId": "d163f3ebf140865c8ccb74598619a605",
+                              "isVeg": 1,
+                              "price": 15500,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27183242",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "86641868",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 13400,
+                                        "id": "86641869",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "8 ratings",
+                                  "ratingCountV2": "8"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115074083",
+                              "name": "Paneer Do Pyaza",
+                              "category": "Main Course",
+                              "description": "A flavorful and aromatic paneer dish that perfectly balances onions and spices in a tantalizing vegetarian main course.",
+                              "imageId": "46779c8798671d1cb4872f7013150866",
+                              "isVeg": 1,
+                              "price": 29500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636631",
+                              "name": "Matar Masala",
+                              "category": "Main Course",
+                              "description": "A flavorsome and aromatic blend of vegetables cooked in a rich and savory sauce.",
+                              "imageId": "9754508ffb2a772bce1a826801f0f01a",
+                              "isVeg": 1,
+                              "price": 11500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636643",
+                              "name": "Paneer Korma",
+                              "category": "Main Course",
+                              "description": "Creamy and flavorsome, this vibrant dish combines tender paneer with a rich and luscious sauce that will leave you craving for more.",
+                              "isVeg": 1,
+                              "price": 15500,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27309879",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "86641882",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 8900,
+                                        "id": "86641883",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636650",
+                              "name": "Champaran Handi Chicken",
+                              "category": "Main Course",
+                              "description": "A flavorsome main course that brings together tender chicken cooked in a delightful handi style from Champaran region.",
+                              "imageId": "fff3940fcfdfa7aa2be523f02ea71f8d",
+                              "price": 17500,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27183243",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half (3 Pcs)",
+                                        "default": 1,
+                                        "id": "93363737",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full (5 Pcs)",
+                                        "price": 11200,
+                                        "id": "93363738",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "56 ratings",
+                                  "ratingCountV2": "56"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#D9EFEC", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636636",
+                              "name": "Dal Fry",
+                              "category": "Main Course",
+                              "description": "A flavorful and comforting main course bursting with rich and aromatic flavors.",
+                              "isVeg": 1,
+                              "price": 15500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636647",
+                              "name": "Chicken Curry",
+                              "category": "Main Course",
+                              "description": "A delectable blend of tender chicken and rich, flavorful sauce, this main course is sure to satisfy meat lovers.",
+                              "imageId": "e656a97a65d781f74dd7a4bce1c6fb0c",
+                              "price": 16000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27183244",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half (3 Pcs)",
+                                        "default": 1,
+                                        "id": "93363746",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full (5 Pcs)",
+                                        "price": 12500,
+                                        "id": "93363748",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "40 ratings",
+                                  "ratingCountV2": "40"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "merch_bau/High%20Protein%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115074079",
+                              "name": "Methi Matar Malai",
+                              "category": "Main Course",
+                              "description": "Creamy and flavorful main course dish made with fenugreek leaves, peas, and a luscious gravy.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/2/ecb128f0-ae9a-4587-be6c-7de67768ca46_cb5d80cd-584f-4b26-a469-785341940e29.JPG",
+                              "isVeg": 1,
+                              "price": 18200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636654",
+                              "name": "Egg Masala",
+                              "category": "Main Course",
+                              "description": "A delectable and flavorful egg dish that will satisfy your taste buds.",
+                              "price": 18800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "EGG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115074085",
+                              "name": "Mutton Bhuna Masala",
+                              "category": "Main Course",
+                              "description": "Tender mutton cooked in a rich and aromatic masala, creating a flavorsome and satisfying main course.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/1/1e7e3764-b039-41db-abcc-0f826232a759_d066743e-7f48-46ca-a7e5-4c905feb1d4c.JPG",
+                              "price": 25500,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27183245",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half (3 Pcs)",
+                                        "default": 1,
+                                        "id": "93363757",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full (5 Pcs)",
+                                        "price": 17400,
+                                        "id": "93363758",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "120267119",
+                              "name": "Champaran Chicken Boilar Handi (9 Pcs)",
+                              "category": "Main Course",
+                              "description": "Savor the flavors of Champaran Chicken Boilar Handi, a delectable non-veg dish that takes your taste buds on a culinary journey.",
+                              "price": 51000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "29886246",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half (9 Pcs)",
+                                        "default": 1,
+                                        "id": "93363775",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full (18 Pcs)",
+                                        "price": 44000,
+                                        "id": "93363778",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#D9EFEC", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636639",
+                              "name": "Kadhai Paneer",
+                              "category": "Main Course",
+                              "description": "A delectable and flavorful Indian dish consisting of succulent paneer cooked in a rich and aromatic tomato-based gravy.",
+                              "imageId": "19c4c7c1d8a8d38d1ada720de7b35012",
+                              "isVeg": 1,
+                              "price": 16000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27183239",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "86641874",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 12900,
+                                        "id": "86641875",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636653",
+                              "name": "Mutton Saoji",
+                              "category": "Main Course",
+                              "description": "A flavorful and succulent mutton dish that promises a burst of authentic flavors in every bite.",
+                              "imageId": "c0ef610964f44c3efb8415be415b1244",
+                              "price": 39900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115074066",
+                              "name": "Champaran Chicken Kakrail Handi",
+                              "category": "Main Course",
+                              "description": "A rich and flavorful chicken dish from Champaran, cooked in an aromatic handi, perfect for a satisfying main course.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/2/29065a94-9983-4558-a2e3-0b1619f8066b_4aae2c70-e251-417c-8c31-c5453e6ccd4b.JPG",
+                              "price": 63000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27183237",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half (9 Pcs)",
+                                        "default": 1,
+                                        "id": "93363785",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full (18 Pcs)",
+                                        "price": 42000,
+                                        "id": "93363786",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.4",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#FFF0CD", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_low",
+                                  "ratingTextColor": "rating_low",
+                                  "ratingCountTextColor": "rating_low",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636640",
+                              "name": "Matar Paneer",
+                              "category": "Main Course",
+                              "description": "Delicious and flavorful vegetarian main course showcasing the perfect blend of tender green peas and creamy cottage cheese.",
+                              "imageId": "64005435ed6e8ac8507a3057a3f273f4",
+                              "isVeg": 1,
+                              "price": 16000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27183240",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "86641876",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 12900,
+                                        "id": "86641877",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#D9EFEC", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115074067",
+                              "name": "Champaran Mutton Handi",
+                              "category": "Main Course",
+                              "description": "Discover the rich, flavorful goodness of Champaran Mutton Handi, a perfect main course that tantalizes your taste buds with each bite.",
+                              "imageId": "3cc8814b95fb44005847bf4e4c5d9aca",
+                              "price": 75000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27183238",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half (10 Pcs)",
+                                        "default": 1,
+                                        "id": "93363787",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full (20 Pcs)",
+                                        "price": 60000,
+                                        "id": "93363790",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "6 ratings",
+                                  "ratingCountV2": "6"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636633",
+                              "name": "Palak Paneer",
+                              "category": "Main Course",
+                              "description": "A wholesome and flavorful blend of fresh spinach and soft paneer in a creamy and aromatic tomato-based gravy, perfect for a satisfying vegetarian main course.",
+                              "imageId": "a264e909ee91f4c061c697ab687b03ff",
+                              "isVeg": 1,
+                              "price": 28900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636638",
+                              "name": "Dal Tadka",
+                              "category": "Main Course",
+                              "description": "A flavorful and comforting main course that showcases the rich, aromatic flavors of lentils cooked to perfection.",
+                              "imageId": "05501e0c31cf1a0e3c597955407e68d3",
+                              "isVeg": 1,
+                              "price": 17500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636646",
+                              "name": "Egg Curries",
+                              "category": "Main Course",
+                              "description": "A hearty and flavorful main course featuring eggs prepared in a delectable curry sauce.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/29/37b28e0d-d11a-4ecc-a390-8c3d3f1a31de_b31924e7-3d4e-40d7-85d4-d822d20e89ab.JPG",
+                              "price": 16000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "EGG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "28 ratings",
+                                  "ratingCountV2": "28"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636649",
+                              "name": "Kadhai Chicken",
+                              "category": "Main Course",
+                              "description": "Tender chicken cooked in a flavorsome, aromatic gravy that will leave you craving for more.",
+                              "imageId": "7b01e2a4103ba4d3ace17e8392aa995f",
+                              "price": 32000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "f524634f6fc27b04308b190e531acd00",
+                      "categoryId": "37158907"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Starters",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "120267012",
+                              "name": "Chilli Paneer (10 Pcs)",
+                              "category": "Starters",
+                              "description": "Delicious, crispy paneer cubes in a rich, flavorful sauce that will leave you craving for more.",
+                              "isVeg": 1,
+                              "price": 24000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103627532",
+                              "name": "Paneer 65",
+                              "category": "Starters",
+                              "description": "A tantalizing and flavorful vegetarian appetizer that is sure to delight your taste buds.",
+                              "imageId": "99c8955ee51cc601adbdda5c78b637d4",
+                              "isVeg": 1,
+                              "price": 27900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115074077",
+                              "name": "Chicken Chilli (10 Pieces)",
+                              "category": "Starters",
+                              "description": "Deliciously seasoned chicken bites bursting with flavor, perfect as a tantalizing starter.",
+                              "price": 26900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103627535",
+                              "name": "Chicken 65",
+                              "category": "Starters",
+                              "description": "Crispy and flavorful, this popular non-veg starter is a must-have for chicken lovers seeking a delightful and satisfying culinary experience.",
+                              "imageId": "9e5b59b98835281129c20fa48a578bf3",
+                              "price": 28900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.1",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#D9EFEC", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "merch_bau/High%20Protein%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115074076",
+                              "name": "Chicken Roast (5 Pieces)",
+                              "category": "Starters",
+                              "description": "Deliciously roasted chicken pieces that make for a delectable starter.",
+                              "price": 25000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "99c8955ee51cc601adbdda5c78b637d4",
+                      "categoryId": "37187039"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Must Try Combos",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144849078",
+                              "name": "Paneer 65+Dal Fry+Jeera Rice+5 Tawa Roti                                                                                 ",
+                              "category": "Must Try Combos",
+                              "description": "Paneer 65+Dal Fry+Jeera Rice+5 Tawa Roti",
+                              "isVeg": 1,
+                              "price": 71500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144849087",
+                              "name": "Paneer Butter Masala+Dal Fry+Jeera Rice+5 Tawa Roti                                                                                 ",
+                              "category": "Must Try Combos",
+                              "description": "Paneer Butter Masala+Dal Fry+Jeera Rice+5 Tawa Roti",
+                              "isVeg": 1,
+                              "price": 59100,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144849093",
+                              "name": "Matar paneer+Dal Fry+Jeera Rice+5 Tawa Roti                                                                                 ",
+                              "category": "Must Try Combos",
+                              "description": "Matar paneer+Dal Fry+Jeera Rice+5 Tawa Roti",
+                              "isVeg": 1,
+                              "price": 57600,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144849102",
+                              "name": "Paneer butter masala+Dal Fry+Jeera Rice+5 Tawa Roti                                                                                            ",
+                              "category": "Must Try Combos",
+                              "description": "Paneer butter masala+Dal Fry+Jeera Rice+5 Tawa Roti",
+                              "isVeg": 1,
+                              "price": 57600,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144849112",
+                              "name": "Matar Paneer+Dal Fry+Jeera Rice+5 Tawa Roti                                                                                            ",
+                              "category": "Must Try Combos",
+                              "description": "Matar Paneer+Dal Fry+Jeera Rice+5 Tawa Roti",
+                              "isVeg": 1,
+                              "price": 59600,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144849120",
+                              "name": "Paneer Korma+Dal Fry+Jeera Rice+5 Tawa Roti                                                                                 ",
+                              "category": "Must Try Combos",
+                              "description": "Paneer Korma+Dal Fry+Jeera Rice+5 Tawa Roti",
+                              "isVeg": 1,
+                              "price": 59100,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144849127",
+                              "name": "Kadhai Paneer+Dal Fry+Jeera Rice+5 Tawa Roti                                                                                 ",
+                              "category": "Must Try Combos",
+                              "description": "Kadhai Paneer+Dal Fry+Jeera Rice+5 Tawa Roti",
+                              "isVeg": 1,
+                              "price": 59600,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144849134",
+                              "name": "Paneer korma+Dal Fry+Jeera Rice+5 Tawa Roti                                                                                           ",
+                              "category": "Must Try Combos",
+                              "description": "Paneer korma+Dal Fry+Jeera Rice+5 Tawa Roti",
+                              "isVeg": 1,
+                              "price": 59100,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144849140",
+                              "name": "Kadhai paneer+Dal Fry+Jeera Rice+5 Tawa Roti                                                                                           ",
+                              "category": "Must Try Combos",
+                              "description": "Kadhai paneer+Dal Fry+Jeera Rice+5 Tawa Roti",
+                              "isVeg": 1,
+                              "price": 57600,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144849146",
+                              "name": "Paneer Bhurji Dry+Dal Fry+Jeera Rice+5 Tawa Roti                                                                                 ",
+                              "category": "Must Try Combos",
+                              "description": "Paneer Bhurji Dry+Dal Fry+Jeera Rice+5 Tawa Roti",
+                              "isVeg": 1,
+                              "price": 75600,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "categoryId": "50183366"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Roti",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636659",
+                              "name": "Tawa Roti",
+                              "category": "Roti",
+                              "description": "A delectable and wholesome Indian flatbread prepared on a hot griddle, serving as the perfect accompaniment to any meal.",
+                              "imageId": "b778fb76d80b59a6e5966ef1b0c42a8d",
+                              "isVeg": 1,
+                              "price": 2000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "66 ratings",
+                                  "ratingCountV2": "66"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115074075",
+                              "name": "Tawa Butter Roti",
+                              "category": "Roti",
+                              "description": "A delectable and savory treat with a soft and buttery texture, offering a delightful twist to traditional Roti.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/23/7cc5ec20-9f1c-4b83-8289-a956ad1558e2_74cf1917-d033-4a78-a7f6-692bcce508fb.JPG",
+                              "isVeg": 1,
+                              "price": 2500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "16 ratings",
+                                  "ratingCountV2": "16"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#D9EFEC", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "b778fb76d80b59a6e5966ef1b0c42a8d",
+                      "categoryId": "37158908"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Biryani",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636527",
+                              "name": "Champaran Egg Dum Biryani",
+                              "category": "Biryani",
+                              "description": "A delectable Biryani brimming with flavorful eggs, tender rice, and exquisite spices from Champaran.",
+                              "imageId": "24e1ad862638cc0b73a7b66c2d98832b",
+                              "price": 22000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "EGG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "103636528",
+                              "name": "Champaran Chicken Dum Biryani",
+                              "category": "Biryani",
+                              "description": "A flavorful and aromatic Biryani layered with tender chunks of chicken, inspired by the traditional flavors of Champaran.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/29/4210a054-9608-4840-b00f-0aaf9a5bd332_1bf1f7a4-c59f-42b0-b2b8-9ac8615cbcc7.JPG",
+                              "price": 15100,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "27183247",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "86641906",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 12400,
+                                        "id": "86641907",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "97 ratings",
+                                  "ratingCountV2": "97"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "120267148",
+                              "name": "Champaran Mutton Dum Biryani ",
+                              "category": "Biryani",
+                              "description": "A flavorful and aromatic mutton biryani with tender meat, layered with fragrant rice and cooked to perfection.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/27/c31d6067-a3b0-4d8d-acef-c25aeb4dc418_05cf481e-e52c-4645-8899-80783e9f5fcb.JPG",
+                              "price": 18700,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "29886264",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "93363815",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 15800,
+                                        "id": "93363818",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "68 ratings",
+                                  "ratingCountV2": "68"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "24e1ad862638cc0b73a7b66c2d98832b",
+                      "categoryId": "37158909"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Rice",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "120267151",
+                              "name": "Jeera Rice ",
+                              "category": "Rice",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/2/4a33c9a4-6177-4b87-ae26-c2247a17f585_218eef6c-3ca7-4a26-baa9-f7dbb3d6c809.JPG",
+                              "isVeg": 1,
+                              "price": 18000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "120267155",
+                              "name": "Veg Fried Rice  ",
+                              "category": "Rice",
+                              "description": "A tantalizingly flavorful and aromatic blend of perfectly cooked rice and an assortment of delicious vegetables.",
+                              "imageId": "ffc745561a854beeacb97cee11559426",
+                              "isVeg": 1,
+                              "price": 19000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/10/2/4a33c9a4-6177-4b87-ae26-c2247a17f585_218eef6c-3ca7-4a26-baa9-f7dbb3d6c809.JPG",
+                      "categoryId": "37158910"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 21423210000976"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Champaran  Handi Restaurant",
+                      "area": "Nagpur road",
+                      "completeAddress": "Near Kamthi, Moters, Nagpur Rd, Chhindwara, Madhya Pradesh 480001"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "f9cec460-3db4-4ea4-a9c7-35448ff2ba59",
+  "sid": "llba7ee1-28e1-4f30-a737-44ff6b366980",
+  "deviceId": "a1aae557-572a-ae00-9d6c-f560f7a00d4c",
+  "csrfToken": "EQRu1mPfMnN9-Z6bfcm7ez24mpjLKPbzi1syj8j0"
+}
